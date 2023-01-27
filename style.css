@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin-left: 20px; 
+    padding: 15px 10px;
+    width: 200px;
+    height: 100px; 
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 4px 3px rgb(146, 139, 139);
+    border-radius: 3px;
+    background-color: rgb(132, 199, 177);
+}
+
+.card:hover{
+    box-shadow: 6px 6px 6px 5px rgb(146, 139, 139);
+    background-color: rgb(134, 36, 56);
+    color: white;
+}
